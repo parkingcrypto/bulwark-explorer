@@ -27,18 +27,18 @@ async function syncCoin() {
   }
 
   const coin = new Coin({
-    cap: market.market_cap_usd,
+    cap: market.market_data.market_cap.usd,
     createdAt: date,
     blocks: info.blocks,
-    btc: market.price_btc,
+    btc: market.market_data.current_price.btc,
     diff: info.difficulty,
     mnsOff: masternodes.total - masternodes.stable,
     mnsOn: masternodes.stable,
     netHash: nethashps,
     peers: info.connections,
     status: 'Online',
-    supply: market.available_supply, // TODO: change to actual count from db.
-    usd: market.price_usd
+    supply: market.market_data.circulating_supply, // TODO: change to actual count from db.
+    usd: market.market_data.current_price.usd
   });
 
   await coin.save();

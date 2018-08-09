@@ -5,15 +5,13 @@ import Card from './Card';
 
 const CardLinks = () => (
   <Card title="Links">
-    <a href="https://bulwarkcrypto.com/" target="_blank">Website</a><br />
-    <a href="https://bitcointalk.org/index.php?topic=2499481.0" target="_blank">Bitcointalk</a><br />
-    <a href="https://github.com/bulwark-crypto" target="_blank">Github</a><br />
-    <a href="https://www.reddit.com/r/BulwarkCoin/" target="_blank">Reddit</a><br />
-    <a href="https://discord.gg/a7vhegP" target="_blank">Discord</a><br />
-    <a href="https://t.me/bulwarkcrypto" target="_blank">Telegram</a><br />
-    <a href="https://twitter.com/BulwarkCoin" target="_blank">Twitter</a><br />
-    <a href="https://www.facebook.com/bulwark.coin.IO/" target="_blank">Facebook</a>
-    <a href="https://medium.com/@bulwarktube" target="_blank">Medium</a>
+    <a href="https://motionproject.org/" target="_blank">Website</a><br />
+    <a href="https://bitcointalk.org/index.php?topic=4842063" target="_blank">Bitcointalk</a><br />
+    <a href="https://github.com/motioncrypto" target="_blank">Github</a><br />
+    <a href="https://discord.gg/bDfwh9t" target="_blank">Discord</a><br />
+    <a href="https://t.me/motionproject" target="_blank">Telegram</a><br />
+    <a href="https://twitter.com/Motion_Coin" target="_blank">Twitter</a><br />
+    <a href="https://www.facebook.com/groups/motion/" target="_blank">Facebook</a>
   </Card>
 );
 

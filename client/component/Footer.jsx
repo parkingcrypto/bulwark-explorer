@@ -27,8 +27,8 @@ class Footer extends Component {
         <div className="footer__block">
           <img className="footer__logo" src="/img/footerlogo.svg" />
           <span className="footer__legal">
-            <div>Copyright &copy; 2018 <a href="https://bulwarkcrypto.com/">Bulwark Cryptocurrency</a></div>
-            <div>Site design / Logo &copy; 2018 <a href="https://bulwarkcrypto.com/">Bulwark Cryptocurrency</a></div>
+            <div>Copyright &copy; 2018 <a href="https://motionproject.org/">Motion Cryptocurrency</a></div>
+            <div>Explorer &copy; 2018 <a href="https://bulwarkcrypto.com/">Bulwark Cryptocurrency</a></div>
           </span>
         </div>
         <div className="footer__block">
@@ -54,25 +54,22 @@ class Footer extends Component {
           <div className="footer__social-media-wrapper">
             <div className="footer__social-title">Social Media</div>
             <div>
-              <a href="https://bitcointalk.org/index.php?topic=2499481.0" target="_blank">
+              <a href="https://bitcointalk.org/index.php?topic=4842063" target="_blank">
                 <Icon name="bitcoin" className="fab footer__social-media-icon" />
               </a>
-              <a href="https://discord.gg/a7vhegP" target="_blank">
+              <a href="https://discord.gg/bDfwh9t" target="_blank">
                 <Icon name="discord" className="fab footer__social-media-icon" />
               </a>
-              <a href="https://t.me/bulwarkcrypto" target="_blank">
+              <a href="https://t.me/motionproject" target="_blank">
                 <Icon name="telegram" className="fab footer__social-media-icon" />
               </a>
-              <a href="https://www.reddit.com/r/BulwarkCoin/" target="_blank">
-                <Icon name="reddit" className="fab footer__social-media-icon" />
-              </a>
-              <a href="https://github.com/bulwark-crypto" target="_blank">
+              <a href="https://github.com/motioncrypto" target="_blank">
                 <Icon name="github" className="fab footer__social-media-icon" />
               </a>
-              <a href="https://twitter.com/BulwarkCoin" target="_blank">
+              <a href="https://twitter.com/Motion_Coin" target="_blank">
                 <Icon name="twitter" className="fab footer__social-media-icon" />
               </a>
-              <a href="http://facebook.com/bulwark.coin.IO/" target="_blank">
+              <a href="https://www.facebook.com/groups/motion/" target="_blank">
                 <Icon name="facebook" className="fab footer__social-media-icon" />
               </a>
             </div>
