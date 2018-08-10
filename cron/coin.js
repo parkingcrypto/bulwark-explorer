@@ -10,15 +10,15 @@ const Coin = require('../model/coin');
 
 /**
  * Get the coin related information including things
- * like price coinmarketcap.com data.
+ * like price coingecko.com data.
  */
 async function syncCoin() {
   const date = moment().utc().startOf('minute').toDate();
-  // Setup the coinmarketcap.com api url.
-  const url = `${ config.coinMarketCap.api }${ config.coinMarketCap.ticker }`;
+  // Setup the coingecko.com api url.
+  const url = `${ config.coinGecko.api }${ config.coinGecko.name }`;
 
   const info = await rpc.call('getinfo');
-  const masternodes = await rpc.call('getmasternodecount');
+  const masternodes = await rpc.call('masternode', ['count']);
   const nethashps = await rpc.call('getnetworkhashps');
 
   let market = await fetch(url);

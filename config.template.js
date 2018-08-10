@@ -4,14 +4,18 @@
  */
 const config = {
   'api': {
-    'host': 'https://explorer.bulwarkcrypto.com',
+    'host': 'https://tx.motionproject.org',
     'port': '443',
     'prefix': '/api',
     'timeout': '5s'
   },
-  'coinMarketCap': {
+  'listen': {
+    'host': 'http://localhost',
+    'port': '3001',
+  },
+  'coinGecko': {
     'api': 'http://api.coinmarketcap.com/v1/ticker/',
-    'ticker': 'bulwark'
+    'name': 'bulwark'
   },
   'db': {
     'host': '127.0.0.1',
