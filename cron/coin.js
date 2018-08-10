@@ -18,7 +18,16 @@ async function syncCoin() {
   const url = `${ config.coinGecko.api }${ config.coinGecko.name }`;
 
   const info = await rpc.call('getinfo');
-  const masternodes = await rpc.call('masternode', ['count']);
+  const masternodes = Object.values(await rpc.call('masternode', ['list']));
+  const masternodesCount = {
+    total: masternodes.length,
+    stable: 0,
+  };
+  for (let i = 0; i < masternodes.length; i += 1) {
+    if (masternodes[i] === 'ENABLED' || masternodes[i] === 'WATCHDOG_ENABLED') {
+      masternodesCount.stable += 1;
+    }
+  }
   const nethashps = await rpc.call('getnetworkhashps');
 
   let market = await fetch(url);
@@ -32,8 +41,8 @@ async function syncCoin() {
     blocks: info.blocks,
     btc: market.market_data.current_price.btc,
     diff: info.difficulty,
-    mnsOff: masternodes.total - masternodes.stable,
-    mnsOn: masternodes.stable,
+    mnsOff: masternodesCount.total - masternodesCount.stable,
+    mnsOn: masternodesCount.stable,
     netHash: nethashps,
     peers: info.connections,
     status: 'Online',
