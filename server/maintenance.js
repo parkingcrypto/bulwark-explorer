@@ -96,8 +96,8 @@ a {
   `);
 });
 // Start the server.
-app.listen(config.api.port, () => {
-  console.log(`BlocEx running on port ${ config.api.port }`);
+app.listen(config.listen.port, () => {
+  console.log(`BlocEx running on port ${ config.listen.port }`);
 });
 
 // Export for testing.
