@@ -42,11 +42,14 @@ async function syncPeer() {
       ver: peer.version
     });
 
-    inserts.push(p);
+    if (!inserts.find(insert => insert._id === parts[0])) {
+      inserts.push(p);
+    }
   });
 
   if (inserts.length) {
     await Peer.remove({});
+
     await Peer.insertMany(inserts);
   }
 }
