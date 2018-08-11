@@ -7,7 +7,8 @@ import {
   ERROR,
   TXS,
   WATCH_ADD,
-  WATCH_REMOVE
+  WATCH_REMOVE,
+
 } from '../constants';
 
 const promises = new Map();
@@ -185,6 +186,12 @@ export const removeWatch = (dispatch, term) => {
   dispatch({ payload: term, type: WATCH_REMOVE });
 };
 
+export const calculatePoW = (query) => {
+  return new promise((resolve, reject) => {
+    return getFromWorker('calculate-pow', resolve, reject, query);
+  });
+}
+
 export default {
   getAddress,
   getBlock,
@@ -201,5 +208,6 @@ export default {
   getTXsWeek,
   setTXs,
   setWatch,
-  removeWatch
+  removeWatch,
+  calculatePoW
 };

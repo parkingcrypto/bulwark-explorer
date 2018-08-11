@@ -4,7 +4,7 @@
 }
 
 .card {
-	font-size: 20px;
+	font-size: 1em;
 	line-height: 1.25;
 	margin-top: 16px;
 	margin-bottom: 16px;
@@ -138,6 +138,11 @@
 	&--graph &__data-sub {
 		font-size: .8em;
 		color: $gray;
+	}
+
+	.input-group-text {
+		background: transparent;
+		border: none;
 	}
 
 }

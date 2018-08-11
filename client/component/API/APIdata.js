@@ -6,12 +6,12 @@ const APIdata = [
         {
           name: 'getAddress [hash]',
           info: 'Returns information for given address.',
-          path: '/api/address/bFY9cyZqZTYHGfduXo7CVNTMiCDeJ1q4gA'
+          path: '/api/address/MWE3wokLW9VuUM6bYs9ADJoZ29Y4XKV9iw'
         },
         {
           name: 'getBlock [hash] [height]',
           info: 'Returns block information for the given hash or height.',
-          path: '/api/block/00000000000072a98f7d8385809a1f71af983d22efce85e63ec3d75f04412823'
+          path: '/api/block/0000000000041800795180b0a181184408ad89a4016d81d240d48bb78acfa88a'
         },
         {
           name: 'getBlockAverage',
@@ -36,7 +36,7 @@ const APIdata = [
         {
           name: 'getMasternodeByAddress',
           info: 'Returns masternode information by Wallet Address.',
-          path: '/api/masternode/bJAUCVr24X84c9k6QVuSvdjbuC69S7zMeG'
+          path: '/api/masternode/M8tJg1AJ8jQk9LS4qemxmhBnGZVUqe7Aq2'
         },
         {
           name: 'getMasternodeCount',
@@ -76,7 +76,7 @@ const APIdata = [
         {
           name: 'getTX [hash]',
           info: 'Returns information for the given transaction.',
-          path: '/api/tx/790c2bdeb46189f180d4a83d7b16aa75a75da1b91d117fea7a7ae818239f0137'
+          path: '/api/tx/121b8c622c23a550b66d13c819a035e70eec1cd79818ba03c3c20e50f1838738'
         },
         {
           name: 'getDifficulty',
@@ -137,17 +137,17 @@ const APIdata = [
         {
           name: 'Transaction (/#/tx/[hash])',
           info: 'Returns transaction information',
-          path: '/#/tx/b1725bcb70b62faa0b273e5385b0225c2ef589bd638cfa582b6cb34f9430d0b9'
+          path: '/#/tx/121b8c622c23a550b66d13c819a035e70eec1cd79818ba03c3c20e50f1838738'
         },
         {
           name: 'Block (/#/block/[hash|height]',
           info: 'Returns block information.',
-          path: '/#/block/000000000001eb792fe1ac3f901d2373509769f5179d9fe2fd3bf8cb3b6ebec9'
+          path: '/#/block/0000000000041800795180b0a181184408ad89a4016d81d240d48bb78acfa88a'
         },
         {
           name: 'Address (/#/address/[hash]',
           info: 'Returns address information.',
-          path: '/#/block/000000000001eb792fe1ac3f901d2373509769f5179d9fe2fd3bf8cb3b6ebec9'
+          path: '/#/address/MGEgU5asbAQ83AUhQjMxmw6bcXnq3aEm6y'
         },
         // { name: 'qr (qr/[hash]',
         //   info: 'Returns qr code information.',
