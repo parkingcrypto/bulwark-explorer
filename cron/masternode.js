@@ -28,7 +28,7 @@ async function syncMasternode() {
   const mns = [];
 
   for (const mn in mnsinfo) {
-    const info = mnsinfo['mn'].split(' ')
+    const info = mnsinfo[mn].split(' ')
       .filter(values => { if (values !== '') { return mn; } });
 
     mns.push({
@@ -40,7 +40,7 @@ async function syncMasternode() {
       sentinelversion: info[5],
       sentinelstate: info[6],
       ip: info[7],
-      lastpaid: mnslastpaidtime['mn'],
+      lastpaid: mnslastpaidtime[mn],
       txhash: mn.split('-')[0],
       outidx: mn.split('-')[1],
     });
