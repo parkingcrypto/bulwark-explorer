@@ -22,21 +22,44 @@ async function syncMasternode() {
   // Increase the timeout for masternode.
   rpc.timeout(10000); // 10 secs
 
-  const mns = await rpc.call('masternode', ['list']);
+  const mnsinfo = await rpc.call('masternodelist', ['info']);
+  const mnslastpaidtime = await rpc.call('masternodelist', ['lastpaidtime']);
   const inserts = [];
+  const mns = [];
+
+  for (const mn in mnsinfo) {
+    const info = mnsinfo['mn'].split(' ')
+      .filter(values => { if (values !== '') { return mn; } });
+
+    mns.push({
+      status: info[0],
+      protocol: info[1],
+      payee: info[2],
+      lastseen: info[3],
+      activeseconds: info[4],
+      sentinelversion: info[5],
+      sentinelstate: info[6],
+      ip: info[7],
+      lastpaid: mnslastpaidtime['mn'],
+      txhash: mn.split('-')[0],
+      outidx: mn.split('-')[1],
+    });
+  }
+
   await forEach(mns, async (mn) => {
     const masternode = new Masternode({
-      active: mn.activetime,
-      addr: mn.addr,
+      active: mn.activeseconds,
+      addr: mn.payee,
       createdAt: date,
       lastAt: new Date(mn.lastseen * 1000),
       lastPaidAt: new Date(mn.lastpaid * 1000),
-      network: mn.network,
-      rank: mn.rank,
+      sentinelVersion: mn.sentinelversion,
+      sentinelState: mn.sentinelstate,
       status: mn.status,
       txHash: mn.txhash,
       txOutIdx: mn.outidx,
-      ver: mn.version
+      ver: mn.protocol,
+      ip: mn.ip,
     });
 
     inserts.push(masternode);

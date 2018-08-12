@@ -67,6 +67,7 @@ class Masternode extends Component {
             skip: (this.state.page - 1) * this.state.size
           })
           .then(({ mns, pages }) => {
+            console.log(mns);
             if (this.debounce) {
               this.setState({ mns, pages, loading: false });
             }

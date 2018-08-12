@@ -39,7 +39,7 @@ class CoinSummary extends Component {
     return (
       <div>
         <div className="row">
-          <div className="col-md-12 col-lg-9">
+          <div className="col-md-12 col-lg-12">
             <div className="row">
               <div className="col-md-12 col-lg-6">
                 <CardStatus
