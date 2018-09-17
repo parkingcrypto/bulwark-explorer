@@ -14,8 +14,8 @@ const config = {
     'port': '3000',
   },
   'coinGecko': {
-    'api': 'http://api.coinmarketcap.com/v1/ticker/',
-    'name': 'bulwark'
+    'api': 'https://api.coingecko.com/api/v3/coins/',
+    'name': 'motion'
   },
   'db': {
     'host': '127.0.0.1',

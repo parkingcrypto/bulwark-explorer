@@ -18,7 +18,7 @@ async function syncCoin() {
   const url = `${ config.coinGecko.api }${ config.coinGecko.name }`;
 
   const info = await rpc.call('getinfo');
-  const masternodes = Object.values(await rpc.call('masternode', ['list']));
+  const masternodes = await rpc.call('masternode', ['count']);
   const masternodesCount = {
     total: masternodes.length,
     stable: 0,
@@ -41,8 +41,8 @@ async function syncCoin() {
     blocks: info.blocks,
     btc: market.market_data.current_price.btc,
     diff: info.difficulty,
-    mnsOff: masternodesCount.total - masternodesCount.stable,
-    mnsOn: masternodesCount.stable,
+    mnsOff: masternodes.total - masternodes.enabled,
+    mnsOn: masternodes.enabled,
     netHash: nethashps,
     peers: info.connections,
     status: 'Online',
