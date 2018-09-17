@@ -4,14 +4,14 @@
  */
 const config = {
   'api': {
-    'host': 'https://tx.motionproject.org',
+    'host': 'https://explorer.parkcoin.club',
     'port': '443',
     'prefix': '/api',
     'timeout': '5s'
   },
   'listen': {
     'host': 'http://localhost',
-    'port': '3001',
+    'port': '3000',
   },
   'coinGecko': {
     'api': 'http://api.coinmarketcap.com/v1/ticker/',
@@ -29,8 +29,8 @@ const config = {
   },
   'rpc': {
     'host': '127.0.0.1',
-    'port': '52541',
-    'user': 'bulwarkrpc',
+    'port': '47774',
+    'user': 'parkingcoinrpc',
     'pass': 'someverysafepassword',
     'timeout': 8000, // 8 seconds
   }
