@@ -1,4 +1,8 @@
-Motion Explorer
+![Parking Logo](https://explorer.parkcoin.club/img/whitelogo.svg)
+
+Parking Explorer
+&middot;
+[![GitHub license](https://img.shields.io/github/license/hexter2018/parking-explorer.svg)](https://github.com/hexter2018/parking-explorer/blob/master/COPYING) [![Build Status](https://travis-ci.org/hexter2018/parking-explorer.svg?branch=master)](https://travis-ci.org/hexter2018/parking-explorer) [![Discord](https://img.shields.io/discord/374271866308919296.svg)](https://discord.gg/Pw642Tn) [![GitHub version](https://badge.fury.io/gh/hexter2018%2Fparking-explorer.svg)](https://badge.fury.io/gh/hexter2018%2Fparking-explorer)
 =====
 
 Simple cryptocurrency block explorer system.
@@ -14,10 +18,16 @@ https://nodejs.org/en/download/package-manager/
 
 https://yarnpkg.com/lang/en/docs/install/
 
-It is also required to have the Motion daemon running in the background. 
+It is also required to have the Parking daemon running in the background. It is recommended to set this up before beginning to set up the explorer so that it syncs by the time you need it.
+
+Our geniuses here at Parkingcrypto™ have put together a script to do this for you. Just run
+
+`bash script/parking_setup.sh`
+
+This will install the latest Parking wallet and create a rpc username/password before starting the daemon.
 
 ## Install
-`git clone https://github.com/motioncrypto/motion-explorer.git` - copy repo to local folder.
+`git clone https://github.com/hexter2018/parking-explorer.git` - copy repo to local folder.
 
 `cd blockex` - change into project directory.
 
