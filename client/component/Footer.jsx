@@ -29,8 +29,8 @@ class Footer extends Component {
           <span className="footer__legal">
             <div>Copyright &copy; 2018 <a href="https://bulwarkcrypto.com/">Bulwark Cryptocurrency</a></div>
             <div>Copyright &copy; 2018 <a href="https://motionproject.org/">Motion Cryptocurrency</a></div>
-            <div>Copyright &copy; 2018 <a href="https://parkcoin.club/">Parking Cryptocurrency</a></div>
-            <div>Site design / Logo &copy; 2018 <a href="https://parkcoin.club/">Parking Cryptocurrency</a></div>
+            <div>Copyright &copy; 2018 <a href="https://parkingcrypto.org/">Parking Cryptocurrency</a></div>
+            <div>Site design / Logo &copy; 2018 <a href="https://parkingcrypto.org/">Parking Cryptocurrency</a></div>
           </span>
         </div>
         <div className="footer__block">
@@ -59,7 +59,7 @@ class Footer extends Component {
               <a href="https://bitcointalk.org/" target="_blank"> 
                 <Icon name="bitcoin" className="fab footer__social-media-icon" />
               </a>
-              <a href="http://discord.me/Pw642Tn" target="_blank">
+              <a href="http://discord.gg/Pw642Tn" target="_blank">
                 <Icon name="discord" className="fab footer__social-media-icon" />
               </a>
               <a href="https://t.me/" target="_blank">
