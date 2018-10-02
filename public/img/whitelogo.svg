@@ -3,31 +3,42 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 417.3 138.2" style="enable-background:new 0 0 417.3 138.2;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#F4F4F4;stroke-width:14;stroke-miterlimit:10;}
-	.st1{fill:#F4F4F4;stroke:#F4F4F4;stroke-miterlimit:10;}
-	.st2{fill:#F4F4F4;}
-	.st3{font-family:'CooperBlack';}
-	.st4{font-size:31.8823px;}
-	.st5{font-size:13.7464px;}
+	.st0{fill:#F4F4F4;}
 </style>
-<g id="Layer_2_1_">
+<g>
 	<g>
-		<path class="st0" d="M68.7,11.6"/>
-		<path class="st0" d="M67.1,62"/>
-		<g>
-			<path class="st1" d="M54.1,106.5c0-3,2.4-5.4,5.4-5.4c3,0,5.4,2.4,5.4,5.4c0,3-2.4,5.4-5.4,5.4C56.5,111.9,54.1,109.5,54.1,106.5
-				z"/>
-			<path class="st0" d="M24.1,34l52,0.3h1.3c15.6,0,28.2,12.4,28.2,27.8c0,15.3-12.6,27.8-28.2,27.8h-1.2H63.2h-3.8v2.3v10.1"/>
-			<path class="st0" d="M126.5,69.5"/>
-		</g>
-		<g>
-			<path class="st0" d="M41.3,119.9l0-3.5v-1V73c0-2.2,2-1.9,2-1.9h31l2.9,0c5.6,0,10.1-4.1,10.1-9.2s-5-9-10.5-9h-1.4l-28.1-0.2"/>
-			<path class="st1" d="M37.7,52.8c0-3,2.4-5.4,5.4-5.4c3,0,5.4,2.4,5.4,5.4c0,3-2.4,5.4-5.4,5.4C40.1,58.2,37.7,55.8,37.7,52.8z"/>
-		</g>
+		<path class="st0" d="M1.1,136.9V2h94.4v54l-54,54V69.5l27-27V29H28.1v107.9H1.1z"/>
 	</g>
-	<ellipse class="st0" cx="69.3" cy="69.5" rx="57.3" ry="58"/>
 </g>
-<text transform="matrix(1.5787 0 0 1 153.6427 68.1112)" class="st2 st3 st4">PARKING</text>
-<text transform="matrix(1.1998 0 0 1 192.2003 92.1571)" class="st2 st3 st5">CRYPTOCURRENCY</text>
-<rect x="248.9" y="79" class="st2" width="5.7" height="6.6"/>
+<g>
+	<g>
+		<path class="st0" d="M100.2,121.9l-5.8-4.4V100h20.2v4.4h-14.5v11l2.9,2.2h11.6v4.4H100.2z"/>
+		<path class="st0" d="M132,119.7v-4.4l-5.8-4.4l5.8-4.4v-2.2h-8.7v17.5h-5.8V100h20.2v8.8l-2.9,2.2l2.9,2.2v11L132,119.7z"/>
+		<path class="st0" d="M147.9,119.7v-5.5l-7.2-5.5V100h5.8v6.6l2.9,2.2v0l1.4,1.1l4.3-3.3V100h5.8v8.8l-7.2,5.5v9.9L147.9,119.7z"/>
+		<path class="st0" d="M163.8,121.9V100h20.2v8.8l-11.6,8.8V111l5.8-4.4v-2.2h-8.7v17.5H163.8z"/>
+		<path class="st0" d="M194.2,119.7v-15.4H187V100h20.2v4.4H200v19.7L194.2,119.7z"/>
+		<path class="st0" d="M215.9,121.9l-5.8-4.4V100h20.2v21.9H215.9z M224.5,117.6v-13.2h-8.7v11l2.9,2.2H224.5z"/>
+		<path class="st0" d="M239,121.9l-5.8-4.4V100h20.2v4.4H239v11l2.9,2.2h11.6v4.4H239z"/>
+		<path class="st0" d="M262.1,121.9l-5.8-4.4V100h5.8v15.4l2.9,2.2h5.8V100h5.8v21.9H262.1z"/>
+		<path class="st0" d="M293.9,119.7v-4.4l-5.8-4.4l5.8-4.4v-2.2h-8.7v17.5h-5.8V100h20.2v8.8l-2.9,2.2l2.9,2.2v11L293.9,119.7z"/>
+		<path class="st0" d="M317,119.7v-4.4l-5.8-4.4l5.8-4.4v-2.2h-8.7v17.5h-5.8V100h20.2v8.8l-2.9,2.2l2.9,2.2v11L317,119.7z"/>
+		<path class="st0" d="M325.7,121.9V100h20.2v4.4h-14.5v4.4h14.5l-5.8,4.4h-8.7v4.4H343l5.8,4.4H325.7z"/>
+		<path class="st0" d="M348.8,121.9V100l14.5,11v-11h5.8v21.9l-14.5-11v11H348.8z"/>
+		<path class="st0" d="M377.7,121.9l-5.8-4.4V100h20.2v4.4h-14.5v11l2.9,2.2h11.6v4.4H377.7z"/>
+		<path class="st0" d="M402.3,119.7v-5.5l-7.2-5.5V100h5.8v6.6l2.9,2.2v0l1.4,1.1l4.3-3.3V100h5.8v8.8l-7.2,5.5v9.9L402.3,119.7z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path class="st0" d="M119.2,12.4h59.4L130,61v10.8l-10.8,10.8V12.4z M151.6,23.2H130v21.6L151.6,23.2z"/>
+		<path class="st0" d="M132.1,69.9l57.5-57.5v57.5h-10.4V38.6l-20.9,20.9h15.7v10.4H132.1z"/>
+		<path class="st0" d="M223.7,64.1V52.6L212.1,41l11.6-11.6v-5.8h-17.3v46.2h-11.6V12.1h40.5v23.1l-5.8,5.8l5.8,5.8v28.9L223.7,64.1
+			z"/>
+		<path class="st0" d="M241,69.9V12.1h11.6v57.8H241z M269.9,64.1V52.6L258.4,41l11.6-11.6V12.1h11.6v23.1l-5.8,5.8l5.8,5.8v28.9
+			L269.9,64.1z"/>
+		<path class="st0" d="M287.3,69.9V12.1h11.6v57.8H287.3z"/>
+		<path class="st0" d="M304.6,69.9V12.1L333.5,41V12.1h11.6v57.8L316.2,41v28.9H304.6z"/>
+		<path class="st0" d="M362.4,69.9l-11.6-11.6V12.1h46.2l-11.6,11.6h-23.1v28.9l5.8,5.8h11.6V29.4L391.3,41v28.9H362.4z"/>
+	</g>
+</g>
 </svg>

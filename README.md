@@ -1,9 +1,11 @@
-![Parking Logo](https://explorer.parkingcrypto.org/img/whitelogo.svg)
+![Parking Logo](https://parkingcrypto.org/images/logo.svg)
 
 Parking Explorer
 &middot;
-[![GitHub license](https://img.shields.io/github/license/parkingcrypto/parking-explorer.svg)](https://github.com/parkingcrypto/parking-explorer/blob/master/COPYING) [![Build Status](https://travis-ci.org/parkingcrypto/parking-explorer.svg?branch=master)](https://travis-ci.org/parkingcrypto/parking-explorer) [![Discord](https://img.shields.io/discord/374271866308919296.svg)](https://discord.gg/Pw642Tn) [![GitHub version](https://badge.fury.io/gh/parkingcrypto%2Fparking-explorer.svg)](https://badge.fury.io/gh/parkingcrypto%2Fparking-explorer)
+[![GitHub license](https://img.shields.io/github/license/hexter2018/parking-explorer.svg)](https://github.com/hexter2018/parking-explorer/blob/master/COPYING) [![Build Status](https://travis-ci.org/hexter2018/parking-explorer.svg?branch=master)](https://travis-ci.org/hexter2018/parking-explorer) [![Discord](https://img.shields.io/discord/374271866308919296.svg)](https://discord.gg/Pw642Tn) [![GitHub version](https://badge.fury.io/gh/hexter2018%2Fparking-explorer.svg)](https://badge.fury.io/gh/hexter2018%2Fparking-explorer)
 =====
+
+Simple cryptocurrency block explorer system.
 
 ## Required
 This repo assumes `git`, `mongodb`, `node`, `yarn`, and are installed with configuration done.  Please adjust commands to your local environment. 

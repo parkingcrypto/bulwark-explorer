@@ -4,7 +4,7 @@
  */
 const config = {
   'api': {
-    'host': 'https://explorer.parkcoin.club',
+    'host': 'https://explorer.parkingcrypto.org',
     'port': '443',
     'prefix': '/api',
     'timeout': '5s'
