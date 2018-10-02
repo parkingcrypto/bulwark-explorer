@@ -27,7 +27,7 @@ Our geniuses here at Parkingcrypto™ have put together a script to do this for 
 This will install the latest Parking wallet and create a rpc username/password before starting the daemon.
 
 ## Install
-`git clone https://github.com/hexter2018/parking-explorer.git` - copy repo to local folder.
+`git clone https://github.com/parkingcrypto/parking-explorer.git` - copy repo to local folder.
 
 `cd blockex` - change into project directory.
 
