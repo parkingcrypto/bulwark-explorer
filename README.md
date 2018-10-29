@@ -1,4 +1,4 @@
-![Parking Logo](https://parkingcrypto.org/images/logo.svg)
+![Parking Logo](https://parkingcrypto.org/images/logo.png)
 
 Parking Explorer
 &middot;
