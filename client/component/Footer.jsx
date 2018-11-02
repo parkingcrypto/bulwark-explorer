@@ -27,9 +27,9 @@ class Footer extends Component {
         <div className="footer__block">
           <img className="footer__logo" src="/img/footerlogo.svg" />
           <span className="footer__legal">
-            <div>Copyright &copy; 2018 <a href="https://bulwarkcrypto.com/">Bulwark Cryptocurrency</a></div><div>Copyright &copy; 2018 <a href="https://motionproject.org/">Motion Cryptocurrency</a></div>
-            <div>Copyright &copy; 2018 <a href="https://parkingcrypto.org/">Parking Cryptocurrency</a></div>
-            <div>Site design / Logo &copy; 2018 <a href="https://parkingcrypto.org/">Parking Cryptocurrency</a></div>
+            <div>Copyright &copy; 2018 <a href="https://bulwarkcrypto.com/" target="_blank">Bulwark Cryptocurrency</a></div>
+            <div>Copyright &copy; 2018 <a href="https://parkingcrypto.org/" target="_blank">Parking Cryptocurrency</a></div>
+            <div>Site design / Logo &copy; 2018 <a href="https://parkingcrypto.org/" target="_blank">Parking Cryptocurrency</a></div>
           </span>
         </div>
         <div className="footer__block">
