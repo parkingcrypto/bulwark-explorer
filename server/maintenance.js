@@ -88,7 +88,7 @@ a {
     <div class="container">
         <img src="https://media.giphy.com/media/vIDsZm5DMZ5Ha/giphy.gif" title="Sad Explorer."/>
       <h1>Maintenance</h1>
-      <p>Motion Explorer is not available at this moment.<br/>Please check back later.</p><br/>
+      <p>Parking Block Explorer is not available at this moment.<br/>Please check back later.</p><br/>
   <a href="https://parkingcrypto.org/" class="button">Back to Main</a>
       </div>
   </body>
