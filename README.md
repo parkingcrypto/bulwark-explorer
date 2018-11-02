@@ -1,4 +1,4 @@
-![Parking Logo](https://parkingcrypto.org/images/logo.png)
+![Parking Logo](https://uca9fbf27cdd0ed4588570a196a9.previews.dropboxusercontent.com/p/orig/AAMmJsDizMaIRSKL-0aRuCNJuuqcvz2gAu6pnbQ4WwGqhuzsfPDyPXMCDLxNA754cWIuTQA2cm5rejaILWARWxXEgit6_6_1KkhMNJDsybS4ectNNi6YvDYJ_8F7YRAFOadUKR5Ji3bMoEjV5nSqLvt6ZsJZNE4eNE9oUS1UYwK1SpA2uOIJJuHlIkiwqhpQLb1Q5RRGUFh6K_bOeq2LhLMY8u8g_koAVsMhQLzDCNmcJtvHYVywyxJv8THCccUXx16R_x6Tn5_hxFx5G2oNPcHN/p.svg?size=1280x960&size_mode=3)
 
 Parking Explorer
 &middot;
