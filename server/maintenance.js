@@ -15,7 +15,7 @@ app.use((req, res) => {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Parking Explorer</title>
+        <title>Parking Block Explorer</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css.maps" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
@@ -81,15 +81,15 @@ a {
   </head>
   <body>
     <div class="logo">
-      <a href="https://parkcoin.club/">
-        <img src="https://parkcoin.club/images/logo.svg" title="Motion Crypto"/>
+      <a href="https://parkingcrypto.org/">
+        <img src="https://explorer.parkingcrypto.org/img/largelogo.svg" title="Parking Crypto"/>
       </a>
       </div>
     <div class="container">
         <img src="https://media.giphy.com/media/vIDsZm5DMZ5Ha/giphy.gif" title="Sad Explorer."/>
       <h1>Maintenance</h1>
       <p>Motion Explorer is not available at this moment.<br/>Please check back later.</p><br/>
-  <a href="https://parkcoin.club/" class="button">Back to Main</a>
+  <a href="https://parkingcrypto.org/" class="button">Back to Main</a>
       </div>
   </body>
 </html>
