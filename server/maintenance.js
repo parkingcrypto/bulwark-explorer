@@ -82,7 +82,7 @@ a {
   <body>
     <div class="logo">
       <a href="https://parkingcrypto.org/">
-        <img src="https://explorer.parkingcrypto.org/img/largelogo.svg" title="Parking Crypto"/>
+        <img src="https://parkingcrypto.org/images/logo.svg" title="Parking Crypto"/>
       </a>
       </div>
     <div class="container">
